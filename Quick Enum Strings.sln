@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickEnumStrings", "QuickEnumStrings\QuickEnumStrings.csproj", "{87DD9173-D49A-4809-A894-A0E1EE97998E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickEnumStrings.Tests", "Tests\QuickEnumStrings.Tests.csproj", "{E5FA23D0-6BDC-475A-95D3-B9A193385F43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87DD9173-D49A-4809-A894-A0E1EE97998E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DD9173-D49A-4809-A894-A0E1EE97998E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DD9173-D49A-4809-A894-A0E1EE97998E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DD9173-D49A-4809-A894-A0E1EE97998E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FA23D0-6BDC-475A-95D3-B9A193385F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FA23D0-6BDC-475A-95D3-B9A193385F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FA23D0-6BDC-475A-95D3-B9A193385F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FA23D0-6BDC-475A-95D3-B9A193385F43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {675AE0C7-73CE-48AE-AF55-C28D2CF6AD88}
+	EndGlobalSection
+EndGlobal
