@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata minClientVersion="4.9.0">
+		<id>QuickEnumStrings</id>
+		<version>1.0.0-preview</version>
+		<title>Quick Enum Strings</title>
+		<authors>L-E-son</authors>
+		<description>Generates a zero-memory-allocation string conversion extension method for an enum declaration.</description>
+		<repository type="git" url="https://github.com/L-E-son/QuickEnumStrings" branch="main"></repository>
+		<license type="expression">BSD-3-Clause</license>
+		<dependencies>
+			<dependency  id="Microsoft.CodeAnalysis.CSharp" version="4.0.1" />
+			<dependency id="Microsoft.CodeAnalysis.Analyzers" version="3.3.3"/>
+		</dependencies>
+	</metadata>
+</package>
