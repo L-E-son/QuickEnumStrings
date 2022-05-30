@@ -2,15 +2,21 @@
 <package>
 	<metadata minClientVersion="4.9.0">
 		<id>QuickEnumStrings</id>
-		<version>1.0.0-preview</version>
+		<version>1.0.1-preview</version>
 		<title>Quick Enum Strings</title>
 		<authors>L-E-son</authors>
 		<description>Generates a zero-memory-allocation string conversion extension method for an enum declaration.</description>
 		<repository type="git" url="https://github.com/L-E-son/QuickEnumStrings" branch="main"></repository>
 		<license type="expression">BSD-3-Clause</license>
 		<dependencies>
-			<dependency  id="Microsoft.CodeAnalysis.CSharp" version="4.0.1" />
-			<dependency id="Microsoft.CodeAnalysis.Analyzers" version="3.3.3"/>
+			<group targetFramework="netstandard2.0">
+				<dependency id="Microsoft.CodeAnalysis.CSharp" version="4.0.1" />
+				<dependency id="Microsoft.CodeAnalysis.Analyzers" version="3.3.3" />
+			</group>
 		</dependencies>
 	</metadata>
+	<files>
+		<file src="..\QuickEnumStrings\bin\Release\netstandard2.0\QuickEnumStrings.dll" target="analyzers\dotnet\cs" />
+		<file src="..\QuickEnumStrings\bin\Release\netstandard2.0\QuickEnumStrings.dll" target="lib\netstandard2.0" />
+	</files>
 </package>
